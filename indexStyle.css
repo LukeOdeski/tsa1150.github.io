@@ -89,6 +89,11 @@
 
 }
 
+p.redirectLink
+{
+    text-indent: 0;
+}
+
 header
 {
     overflow: visible;
