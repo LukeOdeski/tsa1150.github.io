@@ -37,12 +37,11 @@
         color: white;
         font-weight: 600;
         font-size: 2vw;
-        text-indent: 2vw;
     }
 
     .contentCard
     {
-        border: 0.5vw solid #D16A3B;
+        border: 0.5vw solid #843414;
     }
 }
 @media screen and (max-width: 434px)
@@ -85,12 +84,11 @@
         color: white;
         font-weight: 600;
         font-size: 3vw;
-        text-indent: 3vw;
     }
 
     .contentCard
     {
-        border: 0.25vw solid #D16A3B;
+        border: 0.25vw solid #843414;
     }
 }
 
@@ -103,7 +101,7 @@ body
 {
     /*background-color: #D16A3B;*/
     /*background-color: #77A873;*/
-    background-image: linear-gradient(to bottom right, #2C2C2C, #000000);
+    background-color: #253c26;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -154,8 +152,8 @@ body
 .redirectCard
 {
     display: flex;
-    border: 0.5vw solid #2C2C2C;
-    background-color: #8EC298;
+    border: 0.5vw solid #843414;
+    background-color: #26865b;
     padding: 1vw;
     max-height: 5vw;
     box-sizing: border-box;
@@ -168,8 +166,8 @@ body
 }
 .redirectCard:hover
 {
-    background-color: #2C2C2C;
-    border: 0.5vw solid #8EC298;
+    background-color: #843414;
+    border: 0.5vw solid #26865b;
 }
 .redirectLink
 {
@@ -192,7 +190,7 @@ body
 
     justify-items: center;
     align-items: center;
-    background-color: #8EC298;
+    background-color: #26865b;
 }
 
 .contentCardStuff
