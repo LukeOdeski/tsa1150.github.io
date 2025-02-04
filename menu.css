@@ -1,0 +1,45 @@
+
+.appGrid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3vw;
+    padding: 4vw;
+    max-width: 100vw;
+}
+
+.appItemGrid
+{
+    background-color: #8EC298;
+    overflow-wrap: normal;
+}
+
+.entreeGrid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+    padding: 4vw;
+    max-width: 100vw;
+}
+
+.entreeItemGrid
+{
+    background-color: #8EC298;
+    overflow-wrap: normal;
+}
+
+.sidesGrid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 3vw;
+    padding: 4vw;
+    max-width: 100vw;
+}
+
+.sidesItemGrid
+{
+    background-color: #8EC298;
+    overflow-wrap: normal;
+}
