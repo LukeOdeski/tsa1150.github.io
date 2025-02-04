@@ -26,6 +26,10 @@
         font-size: 2vw;
         text-indent: 2vw;
     }
+    p.redirectLink
+    {
+        text-indent: 0;
+    }
 
     a
     {
@@ -70,6 +74,10 @@
         font-weight: 600;
         font-size: 3vw;
         text-indent: 3vw;
+    }
+    p.redirectLink
+    {
+        text-indent: 0;
     }
 
     a
