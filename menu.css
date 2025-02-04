@@ -81,7 +81,7 @@ body
 {
     /*background-color: #D16A3B;*/
     /*background-color: #77A873;*/
-    background-image: linear-gradient(to bottom right, #2C2C2C, #000000);
+    background-color: #253c26;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -173,7 +173,7 @@ body
 
 .appItemGrid
 {
-    background-color: #8EC298;
+    background-color: #26865b;
     overflow-wrap: normal;
 }
 
@@ -188,7 +188,7 @@ body
 
 .entreeItemGrid
 {
-    background-color: #8EC298;
+    background-color: #26865b;
     overflow-wrap: normal;
 }
 
@@ -203,6 +203,6 @@ body
 
 .sidesItemGrid
 {
-    background-color: #8EC298;
+    background-color: #26865b;
     overflow-wrap: normal;
 }
