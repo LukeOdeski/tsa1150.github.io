@@ -100,7 +100,7 @@ body
 {
     /*background-color: #D16A3B;*/
     /*background-color: #77A873;*/
-    background-image: linear-gradient(to bottom right, #2C2C2C, #000000);
+    background-image: #253c26;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -150,8 +150,8 @@ a
 .redirectCard
 {
     display: flex;
-    border: 0.5vw solid #2C2C2C;
-    background-color: #8EC298;
+    border: 0.5vw solid #843414;
+    background-color: #26865b;
     padding: 1vw;
     max-height: 5vw;
     box-sizing: border-box;
@@ -164,8 +164,8 @@ a
 }
 .redirectCard:hover
 {
-    background-color: #2C2C2C;
-    border: 0.5vw solid #8EC298;
+    background-color: #843414;
+    border: 0.5vw solid #26865b;
 }
 .redirectLink
 {
@@ -184,6 +184,6 @@ a
 
 .introCard
 {
-    background-color: #8EC298;
+    background-color: #26865b;
     overflow-wrap: normal;
 }
