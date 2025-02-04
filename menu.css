@@ -31,19 +31,19 @@
     }
     .introCard
     {
-        border: 0.5vw solid #D16A3B;
+        border: 1vw solid #D16A3B;
     }
     .appItemGrid
     {
-        border: 0.5vw solid #843414;
+        border: 1vw solid #843414;
     }
     .entreeItemGrid
     {
-        border: 0.5vw solid #843414;
+        border: 1vw solid #843414;
     }
     .sideItemGrid
     {
-        border: 0.5vw solid #843414;
+        border: 1vw solid #843414;
     }
 }
 
