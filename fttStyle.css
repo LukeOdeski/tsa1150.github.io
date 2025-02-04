@@ -32,6 +32,14 @@
         text-indent: 2vw;
     }
 
+    a
+    {
+        color: white;
+        font-weight: 600;
+        font-size: 2vw;
+        text-indent: 2vw;
+    }
+
     .contentCard
     {
         border: 0.5vw solid #D16A3B;
@@ -65,6 +73,14 @@
     }
 
     p
+    {
+        color: white;
+        font-weight: 600;
+        font-size: 3vw;
+        text-indent: 3vw;
+    }
+
+    a
     {
         color: white;
         font-weight: 600;
