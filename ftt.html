@@ -1,185 +1,39 @@
-@media screen and (min-width: 435px)
-{
-    h1
-    {
-        color: white;
-        font-size: 5vw;
-    }
-    h3
-    {
-        color: white;
-        font-size: 4vw;
-    }
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="fttStyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-    #title
-    {
-        margin-top: 3vw;
-        padding: 0;
-
-        text-shadow: 0.3vw 0.3vw 1vw #000000, 1vw -0.3vw 1vw #000000, -0.3vw 0.3vw 1vw #000000, 0.3vw -0.3vw 1vw #000000;
-    }
-
-    .topBar
-    {
-        height: 23vw;
-    }
-
-    p
-    {
-        color: white;
-        font-weight: 600;
-        font-size: 2vw;
-        text-indent: 2vw;
-    }
-
-    .contentCard
-    {
-        border: 0.5vw solid #D16A3B;
-    }
-}
-@media screen and (max-width: 434px)
-{
-    h1
-    {
-        color: white;
-        font-size: 7vw;
-    }
-
-    #title
-    {
-        margin-top: 3vw;
-        padding: 0;
-
-        text-shadow: 0.3vw 0.3vw 1vw #000000, 0.3vw -0.3vw 1vw #000000, -0.3vw 0.3vw 1vw #000000, 0.3vw -0.3vw 1vw #000000;
-    }
-
-    h3
-    {
-        color: white;
-        font-size: 6vw;
-    }
-
-    .topBar
-    {
-        height: 35vw;
-    }
-
-    p
-    {
-        color: white;
-        font-weight: 600;
-        font-size: 3vw;
-        text-indent: 3vw;
-    }
-
-    .contentCard
-    {
-        border: 0.25vw solid #D16A3B;
-    }
-}
-
-body
-{
-    /*background-color: #D16A3B;*/
-    /*background-color: #77A873;*/
-    background-image: linear-gradient(to bottom right, #2C2C2C, #000000);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    font-family: 'Georgia', sans-serif;
-}
-
-.redirectLink
-{
-    text-indent: 0;
-}
-
-h1, h3, p
-{
-    text-shadow: 0.3vw 0.3vw 0.5vw #000000, 0.5vw -0.3vw 0.5vw #000000, -0.3vw 0.3vw 0.5vw #000000, 0.3vw -0.3vw 0.5vw #000000;
-}
-
-.topBar
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-around;
-    align-content: space-evenly;
-    column-gap: 2vw;
-    padding: 0 0 0 4vw;
-    width: 100vw;
-    /*height: 23vw;*/
-    overflow: visible;
-    box-sizing: border-box;
-    border-bottom: 3px solid #000000;
-
-    background-image: url("banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 30%;
-    position: static;
-    top: 0;
-    left: 0;
-}
-
-.redirectGrid
-{
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    justify-content: space-around;
-    align-content: center;
-    gap: 2vw;
-    padding: 2vw 2vw 2vw 0;
-    max-width: 50vw;
-}
-
-.redirectCard
-{
-    display: flex;
-    border: 0.5vw solid #2C2C2C;
-    background-color: #8EC298;
-    padding: 1vw;
-    max-height: 5vw;
-    box-sizing: border-box;
-    align-content: center;
-    justify-content: center;
-    border-radius: 5vw;
-    cursor: pointer;
-
-    transition: background-color 0.5s, border 0.5s;
-}
-.redirectCard:hover
-{
-    background-color: #2C2C2C;
-    border: 0.5vw solid #8EC298;
-}
-.redirectLink
-{
-    align-self: center;
-    justify-self: center;
-    color: white;
-}
-
-.contentCard
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0;
-    box-sizing: border-box;
-    max-width: 84vw;
-    height: min-width;
-    margin: 8vw 8vw 0 8vw;
-    padding: 3vw;
-
-    justify-items: center;
-    align-items: center;
-    background-color: #8EC298;
-}
-
-.contentCardStuff
-{
-    margin: 0;
-}
+    <body>
+        <div class="topBar">
+            <h1 id="title">The Lotus Lab</h1>
+            <div class="redirectGrid">
+                <div class="redirectCard">
+                        <p class="redirectLink">Page 1</p>
+                </div>
+                <div class="redirectCard">
+                    <p class="redirectLink">Page 2</p>
+                </div>
+                <div class="redirectCard">
+                    <p class="redirectLink">Page 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="contentCard">
+            <h3 class="contentCardStuff">Ken Phan Farm</h3>
+            <p class="contentCardStuff">No diet or meal is complete without protein and per our vegetarian lifestyle and values, we supplement regular meat with alternative sources of a carnivore’s pallet. All our traditional meat including dishes such as Chinese Style “Spareribs” are made with instead Tofu or tempeh made from soybeans undergoing different sustainable practices.  As it is one of the most common ingredients, we had to ensure that we had chosen a mindful source of soybeans for soybeans. Ken Phan Farm has been in business for over 20 years and has cultivated its growing practices to a T. The farm runs 7 days a week-ensuring the freshest soybeans, uses no pesticides, and uses no chemical fertilizers, reducing their carbon footprint.  </p>
+        </div>
+        <div class="contentCard">
+            <h3 class="contentCardStuff">Heart of the City Farmers Market</h3>
+            <p class="contentCardStuff"> We send chefs and grocers on Sundays and Wednesdays from 7 A.M. to 5 P.M. to the city's heart to collect all our fresh produce.  The Heart of the City Market is located at 1182 Market ST. #415, and only a 20-minute walk from our location in downtown SF. 
+Additionally, it is the only non-profit market in the city only contributed to by the small farms of San Francisco such as Bungcayou Farm which supplies traditional organic Asian ingredients such as snake beans and Sichuan peppercorns both included in our crunchy and yummy Sichuan Style Stir-Fried Chinese Long Beans.</p>
+        </div>
+        <div class="contentCard">
+            <h3 class="contentCardStuff">Miramonte Farms Organic</h3>
+            <p class="contentCardStuff">Miramonte Farms Organics  is a small, accomplished farm specializing in fruits such as cherries, prunes, and tomatoes. The fruits and other produce are dry-farmed, reducing water intake and ensuring the most flavors burst through in our Tempeh Tomato Stir Fry!</p>
+        </div>
+        <script src="fttScript.js"></script>
+    </body>
+</html>
