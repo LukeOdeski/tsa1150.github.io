@@ -33,6 +33,18 @@
     {
         border: 0.5vw solid #D16A3B;
     }
+    .appItemGrid
+    {
+        border: 0.5vw solid #843414;
+    }
+    .entreeItemGrid
+    {
+        border: 0.5vw solid #843414;
+    }
+    .sideItemGrid
+    {
+        border: 0.5vw solid #843414;
+    }
 }
 
 @media screen and (max-width: 434px)
@@ -69,6 +81,18 @@
     .introCard
     {
         border: 0.25vw solid #D16A3B;
+    }
+    .appItemGrid
+    {
+        border: 0.25vw solid #843414;
+    }
+    .entreeItemGrid
+    {
+        border: 0.25vw solid #843414;
+    }
+    .sideItemGrid
+    {
+        border: 0.25vw solid #843414;
     }
 
 }
