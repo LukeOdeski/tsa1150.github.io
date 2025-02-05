@@ -6,5 +6,4 @@ function menuExtender()
     
     menu.classList.toggle("extended");
     list.classList.toggle("visible");
-    println("Extending");
 }
