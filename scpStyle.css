@@ -99,6 +99,16 @@
     }
 
 }
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #253c26;
+
+    font-family: "Georgia", "Sans serif";
+}
+
 .topBar
 {
     display: grid;
