@@ -149,8 +149,8 @@ body
 .redirectCard
 {
     display: flex;
-    border: 0.5vw solid #2C2C2C;
-    background-color: #8EC298;
+    border: 0.5vw solid #843414;
+    background-color: #26865b;
     padding: 1vw;
     max-height: 5vw;
     box-sizing: border-box;
@@ -163,8 +163,8 @@ body
 }
 .redirectCard:hover
 {
-    background-color: #2C2C2C;
-    border: 0.5vw solid #8EC298;
+    background-color: #843414;
+    border: 0.5vw solid #26865b;
 }
 .redirectLink
 {
