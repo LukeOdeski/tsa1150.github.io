@@ -36,6 +36,7 @@
         color: white;
         font-weight: 600;
         font-size: 2vw;
+        text-decoration: none;
     }
     
     .topBar
@@ -85,6 +86,7 @@
         color: white;
         font-weight: 600;
         font-size: 3vw;
+        text-decoration: none;
     }
     .topBar
     {
@@ -116,12 +118,6 @@ body
     margin: 0;
     padding: 0;
     background-attachment: fixed;
-}
-
-a
-{
-    color: black;
-    text-decoration: none;
 }
 .topBar
 {
