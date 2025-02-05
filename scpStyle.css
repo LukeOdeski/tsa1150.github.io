@@ -99,10 +99,6 @@
     }
 
 }
-.list
-{
-    text-indent: 0;
-}
 .topBar
 {
     display: grid;
@@ -146,40 +142,12 @@ a
     height: 7vw;
 }
 
-body
-{
-    padding: 0;
-    margin: 0;
-    background-color: #253c26;
-
-    font-family: "Georgia", "Sans serif";
-}
-
 .extendableMenu.extended
 {
     width: 95%;
     height: 7vw;
 }
 
-.item
-{
-    opacity: 0;  
-    transition: opacity 0s;
-}
-
-.item.shown
-{
-    opacity: 1;
-}
-
-.buttonExtension
-{
-    box-sizing: border-box;
-    padding: 5%;
-    margin: 5%;
-    height: auto;
-    width: auto;
-}
 
 .list
 {
