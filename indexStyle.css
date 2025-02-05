@@ -1,4 +1,4 @@
-
+ten
 @media screen and (min-width: 435px)
 {
     h1
@@ -92,7 +92,7 @@
     {
         height: 35vw;
     }
-    .introCard
+    .introCard, .extendableMenu
     {
         border: 0.25vw solid #843414;
     }
