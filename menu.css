@@ -25,6 +25,11 @@
         font-size: 2vw;
         text-indent: 2vw;
     }
+    a
+    {
+        font-weight: 600;
+        font-size: 2vw;
+    }
     .topBar
     {
         height: 23vw;
@@ -74,6 +79,11 @@
         font-size: 3vw;
         text-indent: 3vw;
     }
+    a
+    {
+        font-weight: 600;
+        font-size: 3vw;
+    }
     .topBar
     {
         height: 35vw;
@@ -95,6 +105,12 @@
         border: 0.25vw solid #843414;
     }
 
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
 }
 
 header
