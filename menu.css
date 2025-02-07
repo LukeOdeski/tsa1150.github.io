@@ -46,10 +46,14 @@
     {
         border: 1vw solid #843414;
     }
-    .sideItemGrid, .extendableMenu
+    .sideItemGrid
     {
         border: 1vw solid #843414;
     }
+    .extendableMenu
+    {
+        border: 1vw solid #843414;
+    }    
 }
 
 @media screen and (max-width: 434px)
@@ -92,7 +96,7 @@
     {
         border: 0.25vw solid #D16A3B;
     }
-    .appItemGrid, .extendableMenu
+    .appItemGrid
     {
         border: 0.25vw solid #843414;
     }
@@ -104,6 +108,10 @@
     {
         border: 0.25vw solid #843414;
     }
+    .extendableMenu
+    {
+        border: 0.25vw solid #843414;
+    }    
 
 }
 
