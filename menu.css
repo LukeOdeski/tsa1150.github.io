@@ -40,15 +40,15 @@
     }
     .appItemGrid
     {
-        border: 1vw solid #843414;
+        border: 0.5vw solid #843414;
     }
     .entreeItemGrid
     {
-        border: 1vw solid #843414;
+        border: 0.5vw solid #843414;
     }
     .sidesItemGrid
     {
-        border: 1vw solid #843414;
+        border: 0.5vw solid #843414;
     }
     .extendableMenu
     {
