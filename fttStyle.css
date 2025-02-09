@@ -39,10 +39,11 @@
         font-size: 2vw;
     }
 
-    .contentCard
+    .contentCard, .extendableMenu
     {
         border: 0.5vw solid #843414;
     }
+    
 }
 @media screen and (max-width: 434px)
 {
@@ -86,7 +87,7 @@
         font-size: 3vw;
     }
 
-    .contentCard
+    .contentCard, extendableMenu
     {
         border: 0.25vw solid #843414;
     }
