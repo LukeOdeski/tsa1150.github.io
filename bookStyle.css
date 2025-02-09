@@ -42,7 +42,7 @@
     {
         height: 23vw;
     }
-    .introCard, .extendableMenu
+    .introCard, .extendableMenu, .book
     {
         border: 0.5vw solid #843414;
     }
@@ -91,7 +91,7 @@
     {
         height: 35vw;
     }
-    .introCard, .extendableMenu
+    .introCard, .extendableMenu, .book
     {
         border: 0.25vw solid #843414;
     }
@@ -255,9 +255,6 @@ body
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-width: 1vw;
-    border-style: solid;
-    border-color: #843414;
     width: 75%;
     background-color: #26865b;
 }
