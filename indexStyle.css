@@ -150,7 +150,7 @@ body
 .redirectGrid
 {
     display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-columns: repeat(4, 0.5fr);
     justify-content: space-around;
     align-content: center;
     gap: 2vw;
