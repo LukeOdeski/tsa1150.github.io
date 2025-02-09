@@ -6,7 +6,7 @@
         font-size: 5vw;
     }
 
-    #title
+    .title
     {
         margin-top: 3vw;
         padding: 0;
@@ -64,7 +64,7 @@
         font-size: 6vw;
     }
 
-    #title
+    .title
     {
         margin-top: 3vw;
         padding: 0;
@@ -296,4 +296,13 @@ body
 .list.visible
 {
     opacity: 1;
+}
+
+#titlesGrid
+{   
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
 }
