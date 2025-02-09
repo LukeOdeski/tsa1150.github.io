@@ -1,0 +1,18 @@
+.book
+{
+    margin-top: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: #843414;
+    width: 75%;
+    background-color: #26865b;
+}
+
+.bookBody
+{
+    color: white;
+    text-align: center;
+}
