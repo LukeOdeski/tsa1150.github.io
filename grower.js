@@ -1,5 +1,5 @@
-document.getElementById("menu1").addEventListener("click", menuExtender);
-function menuExtender()
+document.getElementById("menu1").addEventListener("click", menuErector);
+function menuErector()
 {
     var menu = document.getElementById("menu1");
     var list = document.getElementById("list1");
