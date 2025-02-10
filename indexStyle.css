@@ -239,7 +239,7 @@ body
 .list.visible
 {
     opacity: 1;
-    pointer-events: none;
+    pointer-events: all;
 }
 
 #titlesGrid
